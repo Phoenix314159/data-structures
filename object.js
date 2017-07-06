@@ -19,4 +19,3 @@ bigHouse.prototype.house = function () {
 }
 let myHouse = new bigHouse(5,3);
 
-console.log(myHouse.house) ;
