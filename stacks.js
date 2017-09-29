@@ -23,6 +23,7 @@ Stack.prototype.push = function (val) {
 Stack.prototype.pop = function () {
     let str = this.storage.slice(this.storage.lastIndexOf('***') + 3)
     this.storage = this.storage.substring(0, this.storage.lastIndexOf('***'))
+    return str
 }
 Stack.prototype.size = function () {
 
